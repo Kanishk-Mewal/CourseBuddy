@@ -9,7 +9,7 @@ Map<String, List<String>> map = {
 
 Future<void> callGPT(String topicName, String contextName) async {
   // Replace this with your OpenAI API key
-  const String apiKey = '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';
+  const String apiKey = 'Your Key';
 
   const String url = 'https://api.openai.com/v1/chat/completions';
   final headers = {
