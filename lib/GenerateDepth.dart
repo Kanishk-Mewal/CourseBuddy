@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> _callGPT(String topicName) async {
     // Replace this with your OpenAI API key
-    final String apiKey = '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';
+    final String apiKey = 'Your Key';
 
     final String url = 'https://api.openai.com/v1/chat/completions';
     final headers = {
