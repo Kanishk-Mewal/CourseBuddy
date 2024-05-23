@@ -20,7 +20,7 @@ class _GPTScreenState extends State<GPTScreen> {
     final url = 'https://api.openai.com/v1/chat/completions';
     final headers = {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer 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',
+      'Authorization': 'Bearer (YOUR KEY)',
     };
     final requestBody = json.encode({
       "model": "gpt-3.5-turbo",
